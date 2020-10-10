@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LS/MainMenu.unity
+    guid: e57acbb5c58b0e2419bf77989ca1e50c
+  - enabled: 1
+    path: Assets/LS/Level1.unity
+    guid: 7f61e5ed9b397d5419a6ebc1f6e8772d
+  - enabled: 1
+    path: Assets/LS/Level2.unity
+    guid: 81e29edfd37505a4991b92bdfbc45cc3
+  - enabled: 1
+    path: Assets/LS/Level3.unity
+    guid: 10edf405832ba704fbaa44b33b10d760
+  - enabled: 1
+    path: Assets/LS/Level4.unity
+    guid: 630c9e91a0c56b94480a7c3dccdb6fde
+  - enabled: 1
+    path: Assets/LS/Level5.unity
+    guid: 4e7deae5680871a4ba990b2dc348757c
+  - enabled: 1
+    path: Assets/LS/Level6.unity
+    guid: 847b9db78466f024d9afd40e870cb86d
+  - enabled: 1
+    path: Assets/LS/Level7.unity
+    guid: 8c53e0a89b16f8748b329ebca0a4df9a
+  - enabled: 1
+    path: Assets/LS/Level8.unity
+    guid: 94dda8997c25ddc44847bffed9011edb
+  - enabled: 1
+    path: Assets/LS/Level9.unity
+    guid: bbf3c97456467b146ba9364f13c9d7fe
+  - enabled: 1
+    path: Assets/LS/Level10.unity
+    guid: 2a65d97915e1b2e478bf40d661c0a5ef
+  - enabled: 1
+    path: Assets/LS/Level11.unity
+    guid: 77f6a29e8bfbe4a45be08c6f9b6c0b49
+  - enabled: 1
+    path: Assets/LS/Level12.unity
+    guid: 17b1ec30b54de5943b7ea4038e2bcf81
+  - enabled: 1
+    path: Assets/LS/Level13.unity
+    guid: 5081c2c17d6071045b5dddae586cd007
+  - enabled: 1
+    path: Assets/LS/Level14.unity
+    guid: eb9a2eca41440884ba98f0753f0492e0
+  - enabled: 1
+    path: Assets/LS/Level15.unity
+    guid: ab4d290d97d5b3448919278a802f0e9d
+  - enabled: 1
+    path: Assets/LS/Level16.unity
+    guid: 640ccb35b32619148ba326e810f80ec9
+  - enabled: 1
+    path: Assets/LS/Level17.unity
+    guid: d9865cb78cb081044b4c6ffd71240784
+  - enabled: 1
+    path: Assets/LS/Level18.unity
+    guid: 2e9394700f7013241b77faf7882ea627
+  - enabled: 1
+    path: Assets/LS/Level19.unity
+    guid: cbfc86d15c47620408c535ed8f000c49
+  - enabled: 1
+    path: Assets/LS/Level22.unity
+    guid: 7da1d92e074ae58469799a803a76b682
+  - enabled: 1
+    path: Assets/LS/Levels.unity
+    guid: 1f470a3ba7360f347be0ee4ec642818c
+  m_configObjects: {}
