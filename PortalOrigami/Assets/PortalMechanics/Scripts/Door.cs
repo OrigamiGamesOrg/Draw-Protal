@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
+    
     public List<GameObject> keys = new List<GameObject>();
     public bool NextLevel = false;
     public Transform nextDoor;
@@ -23,8 +24,9 @@ public class Door : MonoBehaviour
         }
     }
 
+    
     public void RemoveKey(GameObject key)
     {
         keys.Remove(key);
-    }
+    }    
 }

@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class GoldKey : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other) {
+    public bool isKeyCollected = false;
+
+    private void OnTriggerEnter(Collider other)
+    {
         GameObject.FindGameObjectWithTag("Door").GetComponent<Door>().RemoveKey(this.gameObject);
         Destroy(gameObject);
     }
