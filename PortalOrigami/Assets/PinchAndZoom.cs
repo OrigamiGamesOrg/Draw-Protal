@@ -17,7 +17,7 @@ public class PinchAndZoom : MonoBehaviour
     
     float Horizontalmove,Verticalmove;
     public float moveSpeed;
-    public float minX, maxX, minY, maxY;
+    public float minX, maxX, minY, maxY,maxZ,minZ;
     
 
 
@@ -93,6 +93,14 @@ public class PinchAndZoom : MonoBehaviour
             if (temp.y <= minY)
             {
                 temp.y = minY;
+            }
+            if (temp.z >= maxZ)
+            {
+                temp.z = maxZ;
+            }
+            if (temp.z <= minZ)
+            {
+                temp.z = minZ;
             }
             transform.position = temp;
 
