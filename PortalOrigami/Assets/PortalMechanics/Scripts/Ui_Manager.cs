@@ -12,7 +12,7 @@ public class Ui_Manager : MonoBehaviour
         Pause.SetActive(!Pause.activeSelf);
         GameOver.SetActive(false);
     }
-    public void GameOverPanel()
+    public  void GameOverPanel()
     {
         InGame.SetActive(false);
         Pause.SetActive(false);
