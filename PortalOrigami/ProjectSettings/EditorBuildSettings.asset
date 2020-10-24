@@ -66,8 +66,23 @@ EditorBuildSettings:
     path: Assets/LS/Level19.unity
     guid: cbfc86d15c47620408c535ed8f000c49
   - enabled: 1
+    path: Assets/LS/Level20.unity
+    guid: 6a12ff601aa7d534991ea47b2874d25f
+  - enabled: 1
+    path: Assets/LS/Level21.unity
+    guid: 71ed236788003494c8a0d7f410a42ca3
+  - enabled: 1
     path: Assets/LS/Level22.unity
     guid: 7da1d92e074ae58469799a803a76b682
+  - enabled: 1
+    path: Assets/LS/Level23.unity
+    guid: 9530418e549a7694394cd645c3f7e600
+  - enabled: 1
+    path: Assets/LS/Level24.unity
+    guid: 1d5b2c6e8ed56af41b463ffa9b7acdfe
+  - enabled: 1
+    path: Assets/LS/Level25.unity
+    guid: 2185319132f9cc345ae6a32300247b47
   - enabled: 1
     path: Assets/LS/Levels.unity
     guid: 1f470a3ba7360f347be0ee4ec642818c
