@@ -103,6 +103,81 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal Particle 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeModule.separateAxes
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeModule.curve.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeModule.y.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeModule.z.minMaxState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeModule.curve.minScalar
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeModule.curve.scalar
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeBySpeedModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeBySpeedModule.curve.maxCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeBySpeedModule.curve.maxCurve.m_Curve.Array.data[0].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeBySpeedModule.curve.maxCurve.m_Curve.Array.data[0].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeBySpeedModule.curve.maxCurve.m_Curve.Array.data[0].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeBySpeedModule.curve.maxCurve.m_Curve.Array.data[1].value
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeBySpeedModule.curve.maxCurve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeBySpeedModule.curve.maxCurve.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4172875551893331939, guid: 0f283d2d30777ec4790584d65872f8a7,
+        type: 3}
+      propertyPath: SizeBySpeedModule.curve.maxCurve.m_Curve.Array.data[1].tangentMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6991468485576448852, guid: 0f283d2d30777ec4790584d65872f8a7,
         type: 3}
       propertyPath: m_LocalPosition.x
