@@ -55,30 +55,30 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\UpDownAnim.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\GoldKey.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\Ui_Manager.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\MouseManager.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
-    <Compile Include="Assets\LevelLoad.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\PathCreatorcopy.cs" />
-    <Compile Include="Assets\Camera\Scripts\Camera_Rotation.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\Scene_Manager.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\PathCreator.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\GameManager.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\Player_Controller.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
-    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\TelePort.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\MoveToLevel.cs" />
-    <Compile Include="Assets\PinchAndZoom.cs" />
-    <Compile Include="Assets\Camera\Scripts\FieldOfViewEditor.cs" />
-    <Compile Include="Assets\Camera\Scripts\LineOfSight.cs" />
-    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
-    <Compile Include="Assets\PortalMechanics\Scripts\Door.cs" />
+    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\UpDownAnim.cs" />
+    <Compile Include="Assets\Previous\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\GoldKey.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\Ui_Manager.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\MouseManager.cs" />
+    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Previous\Misc\LevelLoad.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\PathCreatorcopy.cs" />
+    <Compile Include="Assets\Previous\Camera\Scripts\Camera_Rotation.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\Scene_Manager.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\PathCreator.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\Player_Controller.cs" />
+    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\Previous\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\TelePort.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\MoveToLevel.cs" />
+    <Compile Include="Assets\Previous\Misc\PinchAndZoom.cs" />
+    <Compile Include="Assets\Previous\Camera\Scripts\FieldOfViewEditor.cs" />
+    <Compile Include="Assets\Previous\Camera\Scripts\LineOfSight.cs" />
+    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\Previous\PortalMechanics\Scripts\Door.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
