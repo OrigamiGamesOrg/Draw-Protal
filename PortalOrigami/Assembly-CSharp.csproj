@@ -81,6 +81,7 @@
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\Door.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\New\Font\Concert_One\OFL.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\Unity\2019.3\2020.1.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

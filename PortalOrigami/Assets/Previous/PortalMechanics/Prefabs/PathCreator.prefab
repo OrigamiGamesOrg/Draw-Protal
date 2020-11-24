@@ -47,13 +47,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wallMask:
     serializedVersion: 2
-    m_Bits: 3072
+    m_Bits: 2048
   floorMask:
     serializedVersion: 2
     m_Bits: 1024
   minLine: 3
-  portal1: {fileID: 0}
-  portal2: {fileID: 0}
+  portal1: {fileID: 8288346758379344323, guid: de4a3286fc157c04eb567641e7f41909, type: 3}
+  portal2: {fileID: 5290595112678452955, guid: 0fac07a705c4753468e94171b6027455, type: 3}
 --- !u!114 &1915081070179826657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68,12 +68,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickableLayer:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 2048
   OnClickEnvironment:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: UnityEngine.AI.NavMeshAgent, UnityEngine
         m_MethodName: set_destination
         m_Mode: 0
         m_Arguments:
