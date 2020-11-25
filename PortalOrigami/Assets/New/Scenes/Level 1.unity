@@ -1102,6 +1102,85 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &201140499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1651182195}
+    m_Modifications:
+    - target: {fileID: 2418416038135819428, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_Name
+      value: Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418416038135819428, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2418416038135819428, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16509914
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.0512466
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8838b849e1471dc4e9023ae2bf58ecc1, type: 3}
 --- !u!1 &222859308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1651,7 +1730,7 @@ GameObject:
   - component: {fileID: 277231156}
   - component: {fileID: 277231158}
   - component: {fileID: 277231157}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Torus.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3205,7 +3284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445704954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.01, z: 0}
+  m_LocalPosition: {x: 0, y: -0.15, z: 0}
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 1651182195}
@@ -5219,7 +5298,7 @@ GameObject:
   - component: {fileID: 711708817}
   - component: {fileID: 711708819}
   - component: {fileID: 711708818}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Torus.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7629,6 +7708,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0704865, y: 1.9999996, z: 1.9999998}
   m_Center: {x: 0.035246972, y: 0, z: 0}
+--- !u!4 &1070011690 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4104361232672315962, guid: 8838b849e1471dc4e9023ae2bf58ecc1,
+    type: 3}
+  m_PrefabInstance: {fileID: 201140499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1070433758
 GameObject:
   m_ObjectHideFlags: 0
@@ -11904,6 +11989,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal1
       objectReference: {fileID: 0}
+    - target: {fileID: 8288346758379344323, guid: de4a3286fc157c04eb567641e7f41909,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8288346758379344327, guid: de4a3286fc157c04eb567641e7f41909,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12416,6 +12506,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal2
       objectReference: {fileID: 0}
+    - target: {fileID: 5290595112678452955, guid: 0fac07a705c4753468e94171b6027455,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fac07a705c4753468e94171b6027455, type: 3}
 --- !u!1 &1510340552
@@ -12905,9 +13000,9 @@ GameObject:
   - component: {fileID: 1564343225}
   - component: {fileID: 1564343224}
   - component: {fileID: 1564343223}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gold KEY (3)
-  m_TagString: Key
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13346,6 +13441,7 @@ Transform:
   - {fileID: 899258063}
   - {fileID: 1497540536}
   - {fileID: 445704955}
+  - {fileID: 1070011690}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14631,11 +14727,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 612468719853011849, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
+    - target: {fileID: 523920565378470129, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3456267c837251c4ba594c9865254855, type: 2}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 523920565378470129, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 523920565378470129, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
+        type: 3}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3956539774842227804, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
         type: 3}
       propertyPath: m_Name
@@ -14649,7 +14755,7 @@ PrefabInstance:
     - target: {fileID: 4441573268513396454, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4441573268513396454, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
         type: 3}
@@ -15096,6 +15202,11 @@ PrefabInstance:
       propertyPath: OnClickEnvironment.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1812458298}
+    - target: {fileID: 1915081070179826657, guid: c14144e4c0eadd548bcd46a177f2457a,
+        type: 3}
+      propertyPath: clickableLayer.m_Bits
+      value: 3072
+      objectReference: {fileID: 0}
     - target: {fileID: 1915081070179826659, guid: c14144e4c0eadd548bcd46a177f2457a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15155,6 +15266,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PathCreator
+      objectReference: {fileID: 0}
+    - target: {fileID: 1915081070179826669, guid: c14144e4c0eadd548bcd46a177f2457a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c14144e4c0eadd548bcd46a177f2457a, type: 3}
@@ -16605,7 +16721,7 @@ GameObject:
   - component: {fileID: 2048561998}
   m_Layer: 10
   m_Name: Floor
-  m_TagString: DoorRoom
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -16618,7 +16734,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048561996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.5}
+  m_LocalPosition: {x: 0, y: -0.125, z: 0.5}
   m_LocalScale: {x: 22, y: 0.25, z: 27}
   m_Children: []
   m_Father: {fileID: 635496353}
@@ -16698,9 +16814,9 @@ GameObject:
   - component: {fileID: 2060450895}
   - component: {fileID: 2060450894}
   - component: {fileID: 2060450893}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gold KEY (2)
-  m_TagString: Key
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22097,7 +22213,7 @@ GameObject:
   - component: {fileID: 4613474208094785001}
   - component: {fileID: 5426145914200446805}
   - component: {fileID: 5426145914200446804}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Door
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -22532,9 +22648,9 @@ GameObject:
   - component: {fileID: 6501643133762587109}
   - component: {fileID: 6501643133762587108}
   - component: {fileID: 6501643133762587107}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gold KEY (1)
-  m_TagString: Key
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23429,7 +23545,7 @@ GameObject:
   - component: {fileID: 1996878790853193779}
   - component: {fileID: 1005585534571876935}
   - component: {fileID: 2629953330452258013}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Door
   m_Icon: {fileID: 0}
@@ -23463,7 +23579,7 @@ GameObject:
   - component: {fileID: 2180684077661396539}
   - component: {fileID: 2028742826469350326}
   - component: {fileID: 2357899398795730347}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Torus.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
