@@ -8,6 +8,9 @@ public class Door : MonoBehaviour
     public bool NextLevel = false;
     public Transform nextDoor;
 
+    public GameObject[] confetties;
+    //public bool isActive = false;
+
     private void Update()
     {
         if (keys.Count <= 0)
@@ -17,7 +20,7 @@ public class Door : MonoBehaviour
                 transform.tag = "NextDoor";
                 nextDoor.tag = "Door";
             }
-            transform.GetChild(0).GetComponent<Animator>().enabled = true;
+            GetComponent<Animator>().enabled = true;
             GetComponent<BoxCollider>().isTrigger = true;
             this.enabled = false;
             return;
@@ -29,4 +32,12 @@ public class Door : MonoBehaviour
     {
         keys.Remove(key);
     }    
+
+    public void ActivateConfettie()
+    {
+        for (int i = 0; i < confetties.Length; i++)
+		{
+            confetties[i].SetActive(true);
+		}
+    }
 }
