@@ -3267,7 +3267,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 817939376}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1320439459}
+        m_TargetAssemblyTypeName: Scene_Manager, Assembly-CSharp
+        m_MethodName: NextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &817939376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3949,12 +3961,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 998624689}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &998624691 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
-    type: 3}
-  m_PrefabInstance: {fileID: 998624689}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1004501170
 GameObject:
   m_ObjectHideFlags: 0
@@ -4139,12 +4145,6 @@ PrefabInstance:
 --- !u!4 &1035361956 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 911960169178875232, guid: 3b3be6184675be544860dc725668becb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1035361955}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1035361957 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
     type: 3}
   m_PrefabInstance: {fileID: 1035361955}
   m_PrefabAsset: {fileID: 0}
@@ -5294,6 +5294,7 @@ GameObject:
   - component: {fileID: 1320439457}
   - component: {fileID: 1320439456}
   - component: {fileID: 1320439455}
+  - component: {fileID: 1320439459}
   m_Layer: 5
   m_Name: EndCanvas
   m_TagString: Untagged
@@ -5400,6 +5401,18 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
+--- !u!114 &1320439459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320439453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e940768216583045be2b5714cb950b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1374987467
 GameObject:
   m_ObjectHideFlags: 0
@@ -5921,12 +5934,6 @@ PrefabInstance:
 --- !u!4 &1540706464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 911960169178875232, guid: 3b3be6184675be544860dc725668becb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1540706463}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1540706465 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
     type: 3}
   m_PrefabInstance: {fileID: 1540706463}
   m_PrefabAsset: {fileID: 0}
@@ -6956,12 +6963,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1843051152}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1843051154 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1843051152}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1857667124
 GameObject:
   m_ObjectHideFlags: 0
@@ -7748,11 +7749,6 @@ MonoBehaviour:
   - {fileID: 982144352}
   NextLevel: 0
   nextDoor: {fileID: 0}
-  confetties:
-  - {fileID: 1843051154}
-  - {fileID: 1540706465}
-  - {fileID: 1035361957}
-  - {fileID: 998624691}
 --- !u!65 &1987681851
 BoxCollider:
   m_ObjectHideFlags: 0

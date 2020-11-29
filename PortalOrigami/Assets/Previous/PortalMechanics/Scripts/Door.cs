@@ -8,8 +8,7 @@ public class Door : MonoBehaviour
     public bool NextLevel = false;
     public Transform nextDoor;
 
-    public GameObject[] confetties;
-    //public bool isActive = false;
+    
 
     private void Update()
     {
@@ -33,11 +32,5 @@ public class Door : MonoBehaviour
         keys.Remove(key);
     }    
 
-    public void ActivateConfettie()
-    {
-        for (int i = 0; i < confetties.Length; i++)
-		{
-            confetties[i].SetActive(true);
-		}
-    }
+   
 }

@@ -278,7 +278,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 52297780}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1874472613}
+        m_TargetAssemblyTypeName: Scene_Manager, Assembly-CSharp
+        m_MethodName: NextScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &52297780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2277,12 +2289,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b3be6184675be544860dc725668becb, type: 3}
---- !u!1 &781409082 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
-    type: 3}
-  m_PrefabInstance: {fileID: 781409081}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &781409083 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 911960169178875232, guid: 3b3be6184675be544860dc725668becb,
@@ -2649,12 +2655,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b3be6184675be544860dc725668becb, type: 3}
---- !u!1 &848419467 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
-    type: 3}
-  m_PrefabInstance: {fileID: 848419466}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &848419468 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 911960169178875232, guid: 3b3be6184675be544860dc725668becb,
@@ -4650,12 +4650,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b3be6184675be544860dc725668becb, type: 3}
---- !u!1 &1241720031 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1241720030}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1241720032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 911960169178875232, guid: 3b3be6184675be544860dc725668becb,
@@ -5465,11 +5459,6 @@ MonoBehaviour:
   - {fileID: 1646603521}
   NextLevel: 0
   nextDoor: {fileID: 0}
-  confetties:
-  - {fileID: 1645292938}
-  - {fileID: 848419467}
-  - {fileID: 1241720031}
-  - {fileID: 781409082}
 --- !u!65 &1528468013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6129,12 +6118,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b3be6184675be544860dc725668becb, type: 3}
---- !u!1 &1645292938 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
-    type: 3}
-  m_PrefabInstance: {fileID: 1645292937}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1645292939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 911960169178875232, guid: 3b3be6184675be544860dc725668becb,
@@ -6908,6 +6891,7 @@ GameObject:
   - component: {fileID: 1874472610}
   - component: {fileID: 1874472609}
   - component: {fileID: 1874472608}
+  - component: {fileID: 1874472613}
   m_Layer: 5
   m_Name: EndCanvas
   m_TagString: Untagged
@@ -7014,6 +6998,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1874472613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874472607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e940768216583045be2b5714cb950b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1902219223
 GameObject:
   m_ObjectHideFlags: 0

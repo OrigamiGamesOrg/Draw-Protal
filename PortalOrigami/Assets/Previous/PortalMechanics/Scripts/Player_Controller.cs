@@ -6,6 +6,8 @@ public class Player_Controller : MonoBehaviour
 {
     private NavMeshAgent agent;
     private Animator anim;
+    public GameObject EndCanvas;
+    public GameObject[] confetties;
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -34,8 +36,15 @@ public class Player_Controller : MonoBehaviour
         if (other.gameObject.CompareTag("Door"))
         {
             gameObject.SetActive(false);
-            GameManager.instance.LevelComplete();
-            Debug.Log("Level Complete");
+            for (int i = 0; i < confetties.Length; i++)
+            {
+                confetties[i].SetActive(true);
+            }
+            EndCanvas.SetActive(true);
+             
+            
+            //GameManager.instance.LevelComplete();
+            // Debug.Log("Level Complete");
         }
 
         if (other.gameObject.CompareTag("NextDoor"))
