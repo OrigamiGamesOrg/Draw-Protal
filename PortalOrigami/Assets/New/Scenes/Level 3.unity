@@ -10957,5 +10957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Electric Bars (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5534025142358118051, guid: a4b30b80c6f425f428945cb53a129f08,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b30b80c6f425f428945cb53a129f08, type: 3}
