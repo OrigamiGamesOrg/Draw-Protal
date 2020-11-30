@@ -2362,6 +2362,12 @@ NavMeshAgent:
     type: 3}
   m_PrefabInstance: {fileID: 460630257}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &462308146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5534025142358118051, guid: a4b30b80c6f425f428945cb53a129f08,
+    type: 3}
+  m_PrefabInstance: {fileID: 5534025141967616041}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &480624880
 GameObject:
   m_ObjectHideFlags: 0
@@ -10822,6 +10828,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 688472387}
     m_Modifications:
+    - target: {fileID: 1232228933, guid: 0a181314670194847902ec61467cf763, type: 3}
+      propertyPath: ElectricWall
+      value: 
+      objectReference: {fileID: 462308146}
     - target: {fileID: 1399363163492623468, guid: 0a181314670194847902ec61467cf763,
         type: 3}
       propertyPath: m_Name
