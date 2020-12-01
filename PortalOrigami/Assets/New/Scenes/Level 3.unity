@@ -4111,7 +4111,7 @@ PrefabInstance:
     - target: {fileID: 935801880803550366, guid: 40c060ecf8582254db69c9b9f849bccc,
         type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 935801880803550366, guid: 40c060ecf8582254db69c9b9f849bccc,
         type: 3}
@@ -6072,7 +6072,7 @@ Transform:
   - {fileID: 480624881}
   - {fileID: 1368954551}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1072447031
 PrefabInstance:
@@ -6843,7 +6843,7 @@ Transform:
   m_LocalScale: {x: 8.378184, y: 8.378184, z: 8.378184}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1190096559
 GameObject:
@@ -9774,7 +9774,7 @@ GameObject:
   - component: {fileID: 1870813516}
   - component: {fileID: 1870813515}
   - component: {fileID: 1870813514}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Wall16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10430,7 +10430,7 @@ GameObject:
   - component: {fileID: 1993468966}
   - component: {fileID: 1993468965}
   - component: {fileID: 1993468964}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Wall14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
