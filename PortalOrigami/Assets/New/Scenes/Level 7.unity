@@ -7705,9 +7705,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keys:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1598219432}
+  - {fileID: 1927826932}
+  - {fileID: 1426693228}
   NextLevel: 0
   nextDoor: {fileID: 0}
 --- !u!65 &1471838744
