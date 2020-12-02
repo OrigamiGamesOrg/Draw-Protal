@@ -1486,7 +1486,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6f4a9756d8a0fdb48a6c2311f01e7369, type: 2}
+  - {fileID: 2100000, guid: 7183db4e2940c904796123154e9815bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2935,7 +2935,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: feeeb1e5c373d7844930128de81b0311, type: 2}
+  - {fileID: 2100000, guid: 26c8aa3357777634b8c3862d02e71070, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7731,7 +7731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6429071, g: 0, b: 0.8679245, a: 1}
+  m_Color: {r: 0.06897472, g: 0.32422197, b: 0.4716981, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
