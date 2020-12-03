@@ -12,6 +12,7 @@ TagManager:
   - NextDoor
   - Key
   - Enemy
+  - Electric
   layers:
   - Default
   - TransparentFX

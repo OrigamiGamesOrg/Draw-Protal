@@ -52,6 +52,12 @@ public class Player_Controller : MonoBehaviour
             GameManager.instance.NextRoom();
             Debug.Log("Next Room");
         }
+
+        if (other.gameObject.CompareTag("Electric"))
+        {
+            GameManager.instance.GetCaught();
+            this.gameObject.SetActive(false);
+        }
     }
 
     private void OnCollisionEnter(Collision other)
