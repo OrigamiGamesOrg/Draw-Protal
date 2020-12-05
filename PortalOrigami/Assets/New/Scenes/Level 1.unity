@@ -1996,6 +1996,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654567073}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &669864875 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 834220288125352330, guid: 493c4319495aaa34485de7dd1ce316e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 4674230755461197529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &670220037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4503,6 +4509,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 1048180288}
+  door: {fileID: 669864875}
 --- !u!114 &1564343224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6264,6 +6271,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 2111015820}
+  door: {fileID: 669864875}
 --- !u!114 &2060450894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9550,6 +9558,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 557819398}
+  door: {fileID: 669864875}
 --- !u!114 &6501643133762587108
 MonoBehaviour:
   m_ObjectHideFlags: 0

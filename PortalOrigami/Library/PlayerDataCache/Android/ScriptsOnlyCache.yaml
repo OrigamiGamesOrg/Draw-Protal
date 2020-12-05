@@ -62,10 +62,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -150,113 +148,113 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11940}
     - Class: 114
-      Script: {instanceID: 11942}
+      Script: {instanceID: 12020}
     - Class: 114
-      Script: {instanceID: 12014}
+      Script: {instanceID: 12034}
     - Class: 114
-      Script: {instanceID: 12028}
+      Script: {instanceID: 12160}
     - Class: 114
-      Script: {instanceID: 12154}
+      Script: {instanceID: 12272}
     - Class: 114
-      Script: {instanceID: 12266}
+      Script: {instanceID: 12308}
     - Class: 114
-      Script: {instanceID: 12302}
+      Script: {instanceID: 12316}
     - Class: 114
-      Script: {instanceID: 12310}
+      Script: {instanceID: 12350}
     - Class: 114
-      Script: {instanceID: 12344}
+      Script: {instanceID: 12606}
     - Class: 114
-      Script: {instanceID: 12600}
+      Script: {instanceID: 12624}
     - Class: 114
-      Script: {instanceID: 12618}
+      Script: {instanceID: 12840}
     - Class: 114
-      Script: {instanceID: 12834}
+      Script: {instanceID: 12868}
     - Class: 114
-      Script: {instanceID: 12862}
+      Script: {instanceID: 12914}
     - Class: 114
-      Script: {instanceID: 12908}
+      Script: {instanceID: 13272}
     - Class: 114
-      Script: {instanceID: 13266}
+      Script: {instanceID: 13328}
     - Class: 114
-      Script: {instanceID: 13322}
+      Script: {instanceID: 13342}
     - Class: 114
-      Script: {instanceID: 13336}
+      Script: {instanceID: 13414}
     - Class: 114
-      Script: {instanceID: 13408}
+      Script: {instanceID: 13708}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 13730}
     - Class: 114
-      Script: {instanceID: 13724}
+      Script: {instanceID: 13742}
     - Class: 114
-      Script: {instanceID: 13736}
+      Script: {instanceID: 13894}
     - Class: 114
-      Script: {instanceID: 13888}
+      Script: {instanceID: 14024}
     - Class: 114
-      Script: {instanceID: 14020}
+      Script: {instanceID: 14084}
     - Class: 114
-      Script: {instanceID: 14080}
+      Script: {instanceID: 14156}
     - Class: 114
-      Script: {instanceID: 14152}
+      Script: {instanceID: 14300}
     - Class: 114
-      Script: {instanceID: 14296}
+      Script: {instanceID: 14558}
     - Class: 114
-      Script: {instanceID: 14554}
+      Script: {instanceID: 14610}
     - Class: 114
-      Script: {instanceID: 14606}
+      Script: {instanceID: 14680}
     - Class: 114
-      Script: {instanceID: 14676}
+      Script: {instanceID: 14688}
     - Class: 114
-      Script: {instanceID: 14684}
+      Script: {instanceID: 14732}
     - Class: 114
-      Script: {instanceID: 14728}
+      Script: {instanceID: 15128}
     - Class: 114
-      Script: {instanceID: 15124}
-    - Class: 114
-      Script: {instanceID: 15210}
-    - Class: 114
-      Script: {instanceID: 15232}
+      Script: {instanceID: 15214}
     - Class: 114
       Script: {instanceID: 15236}
     - Class: 114
-      Script: {instanceID: 15402}
+      Script: {instanceID: 15240}
     - Class: 114
-      Script: {instanceID: 15448}
+      Script: {instanceID: 15406}
     - Class: 114
-      Script: {instanceID: 15456}
+      Script: {instanceID: 15452}
     - Class: 114
-      Script: {instanceID: 15862}
+      Script: {instanceID: 15460}
     - Class: 114
-      Script: {instanceID: 15954}
+      Script: {instanceID: 15866}
     - Class: 114
-      Script: {instanceID: 16146}
+      Script: {instanceID: 15958}
     - Class: 114
-      Script: {instanceID: 16306}
+      Script: {instanceID: 16150}
     - Class: 114
-      Script: {instanceID: 16542}
+      Script: {instanceID: 16310}
     - Class: 114
-      Script: {instanceID: 16610}
+      Script: {instanceID: 16546}
     - Class: 114
-      Script: {instanceID: 16612}
+      Script: {instanceID: 16614}
     - Class: 114
-      Script: {instanceID: 16644}
+      Script: {instanceID: 16616}
     - Class: 114
-      Script: {instanceID: 16712}
+      Script: {instanceID: 16648}
     - Class: 114
-      Script: {instanceID: 16762}
+      Script: {instanceID: 16716}
     - Class: 114
-      Script: {instanceID: 16878}
+      Script: {instanceID: 16766}
     - Class: 114
       Script: {instanceID: 16882}
     - Class: 114
-      Script: {instanceID: 16922}
+      Script: {instanceID: 16886}
     - Class: 114
-      Script: {instanceID: 16956}
+      Script: {instanceID: 16926}
     - Class: 114
-      Script: {instanceID: 17086}
+      Script: {instanceID: 16960}
     - Class: 114
-      Script: {instanceID: 17130}
+      Script: {instanceID: 17010}
     - Class: 114
-      Script: {instanceID: 17138}
+      Script: {instanceID: 17092}
+    - Class: 114
+      Script: {instanceID: 17136}
+    - Class: 114
+      Script: {instanceID: 17144}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -314,12 +312,6 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 0c05f2bfb402def3f0a85a62a2323c7f
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Slider
-  - hash:
-      serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -360,6 +352,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 2cb85097bd451bae61ff71e703256582
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineAsset
   - hash:
       serializedVersion: 2
       Hash: a1f19ad47d3094e235f21b74dfc423a8
@@ -698,7 +696,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: d995524fac967f9cf45e6e2e0d6466c7
+      Hash: a343def1dbd761d8d7ee40e4a0108fa8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GoldKey
@@ -810,12 +808,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: ChromaticAberration
-  - hash:
-      serializedVersion: 2
-      Hash: 2cb85097bd451bae61ff71e703256582
-    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
-    namespaceName: UnityEngine.Rendering.Universal
-    className: UniversalRenderPipelineAsset
   - hash:
       serializedVersion: 2
       Hash: ce669872a2be11bc686ea22961d8a3bb
@@ -1508,6 +1500,12 @@ ScriptsOnlyBuild:
     className: VFXPropertyBinder
   - hash:
       serializedVersion: 2
+      Hash: 0c05f2bfb402def3f0a85a62a2323c7f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
       Hash: 098b08e77f16fc740b87d79978b382b6
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
@@ -1575,4 +1573,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/New/Scenes/Level 1.unity
-  playerPath: F:/AllProjects/OrigamiGames/Draw-Protal/PortalOrigami/PortalGame_Level1_V1.apk
+  playerPath: C:/Users/Preet/Desktop/portal.apk

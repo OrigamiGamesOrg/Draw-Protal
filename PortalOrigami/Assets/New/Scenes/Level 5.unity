@@ -979,6 +979,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 0}
+  door: {fileID: 1019323140}
 --- !u!114 &214076945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2373,6 +2374,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 0}
+  door: {fileID: 1019323140}
 --- !u!114 &442182595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5367,6 +5369,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 0}
+  door: {fileID: 1019323140}
 --- !u!114 &957786788
 MonoBehaviour:
   m_ObjectHideFlags: 0

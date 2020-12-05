@@ -1161,6 +1161,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 1752841363}
+  door: {fileID: 542864716}
 --- !u!114 &163965749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,6 +1657,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 471702975}
+  door: {fileID: 542864716}
 --- !u!114 &257125638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3256,6 +3258,12 @@ PrefabInstance:
 --- !u!4 &542864715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 60919825665549104, guid: 493c4319495aaa34485de7dd1ce316e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 542864714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &542864716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 834220288125352330, guid: 493c4319495aaa34485de7dd1ce316e5,
     type: 3}
   m_PrefabInstance: {fileID: 542864714}
   m_PrefabAsset: {fileID: 0}
@@ -8504,6 +8512,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 67712759}
+  door: {fileID: 542864716}
 --- !u!114 &1425402877
 MonoBehaviour:
   m_ObjectHideFlags: 0

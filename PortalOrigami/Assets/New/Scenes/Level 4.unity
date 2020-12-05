@@ -687,6 +687,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 351837040}
+  door: {fileID: 1558453041}
 --- !u!114 &53903139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1743,7 +1744,7 @@ Transform:
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 1267817798}
-  m_RootOrder: 57
+  m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &208366416
 MeshCollider:
@@ -6410,6 +6411,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 407094536}
+  door: {fileID: 1558453041}
 --- !u!114 &982144354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8046,10 +8048,10 @@ Transform:
   - {fileID: 1822239811}
   - {fileID: 1366663660}
   - {fileID: 166828921}
+  - {fileID: 208366415}
   - {fileID: 432995760}
   - {fileID: 504704602}
   - {fileID: 861412339}
-  - {fileID: 208366415}
   - {fileID: 372353573}
   - {fileID: 1081723779}
   - {fileID: 1424687835}
@@ -9291,6 +9293,12 @@ PrefabInstance:
 --- !u!4 &1558453040 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 60919825665549104, guid: 493c4319495aaa34485de7dd1ce316e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1558453039}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1558453041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 834220288125352330, guid: 493c4319495aaa34485de7dd1ce316e5,
     type: 3}
   m_PrefabInstance: {fileID: 1558453039}
   m_PrefabAsset: {fileID: 0}
@@ -11087,6 +11095,7 @@ MonoBehaviour:
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
   button: {fileID: 1371570113}
+  door: {fileID: 1558453041}
 --- !u!114 &1937353662
 MonoBehaviour:
   m_ObjectHideFlags: 0
