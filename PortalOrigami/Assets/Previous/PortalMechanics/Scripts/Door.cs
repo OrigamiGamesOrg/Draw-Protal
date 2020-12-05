@@ -19,7 +19,8 @@ public class Door : MonoBehaviour
                 transform.tag = "NextDoor";
                 nextDoor.tag = "Door";
             }
-            GetComponent<Animator>().enabled = true;
+            Debug.Log(keys.Count);
+            GetComponentInChildren<Animator>().enabled = true;
             GetComponent<BoxCollider>().isTrigger = true;
             this.enabled = false;
             return;

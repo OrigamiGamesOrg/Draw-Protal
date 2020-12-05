@@ -12,12 +12,17 @@ public class GoldKey : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        button.SetActive(true);
+        if (other.CompareTag("Player"))
+        {
+            button.SetActive(true);
+        }
     }
 
     public void KeyCollection()
     {
-        GameObject.FindGameObjectWithTag("Door").GetComponent<Door>().RemoveKey(this.gameObject);
+        Debug.Log("Key Collected");
+        GameObject.FindGameObjectWithTag("Door").GetComponentInChildren<Door>().RemoveKey(this.gameObject);
+        Debug.Log("Key Destroyed");
         Destroy(gameObject);
         GameObject effect = Instantiate(collectionEffect, transform.position, Quaternion.identity);
         Destroy(effect, 2f);
