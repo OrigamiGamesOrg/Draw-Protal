@@ -1493,7 +1493,7 @@ Transform:
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 881862566}
-  m_RootOrder: 59
+  m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &215626191
 MeshCollider:
@@ -4729,11 +4729,11 @@ Transform:
   - {fileID: 2099894098}
   - {fileID: 2015795560}
   - {fileID: 1716680283}
+  - {fileID: 215626190}
   - {fileID: 245212598}
   - {fileID: 1695578656}
   - {fileID: 825093913}
   - {fileID: 1753690203}
-  - {fileID: 215626190}
   - {fileID: 898682629}
   - {fileID: 1949259091}
   - {fileID: 1695401880}
@@ -8519,7 +8519,7 @@ PrefabInstance:
     - target: {fileID: 4441573268513396454, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4441573268513396454, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
         type: 3}
@@ -12315,7 +12315,7 @@ PrefabInstance:
     - target: {fileID: 1915081070179826659, guid: c14144e4c0eadd548bcd46a177f2457a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1915081070179826659, guid: c14144e4c0eadd548bcd46a177f2457a,
         type: 3}
