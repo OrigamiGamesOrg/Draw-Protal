@@ -762,6 +762,7 @@ MonoBehaviour:
   isKeyCollected: 0
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
+  button: {fileID: 0}
 --- !u!114 &143697726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5635,7 +5636,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 0.6839622, g: 0.85947984, b: 1, a: 1}
-  m_Intensity: 0.75
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -8368,6 +8369,7 @@ MonoBehaviour:
   isKeyCollected: 0
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
+  button: {fileID: 0}
 --- !u!114 &1646603523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8441,7 +8443,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.75
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -8607,6 +8609,7 @@ MonoBehaviour:
   isKeyCollected: 0
   collectionEffect: {fileID: 1304768579515287582, guid: 481e38b8b20b7cc4f988e66471b87eda,
     type: 3}
+  button: {fileID: 0}
 --- !u!114 &1678724620
 MonoBehaviour:
   m_ObjectHideFlags: 0
