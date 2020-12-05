@@ -956,7 +956,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 128
     m_FontStyle: 1
     m_BestFit: 0
@@ -1035,7 +1035,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -1047,7 +1047,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: H O M E
+  m_Text: 'H O M E
+
+'
 --- !u!222 &78759258
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1744,7 +1746,7 @@ Transform:
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 1267817798}
-  m_RootOrder: 46
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &208366416
 MeshCollider:
@@ -2951,7 +2953,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -2963,7 +2965,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: R E S U M E
+  m_Text: 'R E S U M E
+
+'
 --- !u!222 &458939277
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3686,7 +3690,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 128
     m_FontStyle: 1
     m_BestFit: 0
@@ -4409,7 +4413,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -4421,7 +4425,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: R E T R Y
+  m_Text: 'R E T R Y
+
+'
 --- !u!222 &656433718
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8030,6 +8036,7 @@ Transform:
   - {fileID: 803374921}
   - {fileID: 1503122300}
   - {fileID: 178430537}
+  - {fileID: 208366415}
   - {fileID: 39721358}
   - {fileID: 63039169}
   - {fileID: 2116953107}
@@ -8040,7 +8047,6 @@ Transform:
   - {fileID: 507194309}
   - {fileID: 1030244321}
   - {fileID: 564430755}
-  - {fileID: 208366415}
   - {fileID: 38284135}
   - {fileID: 1810869538}
   - {fileID: 2070012520}
@@ -10601,7 +10607,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -10613,7 +10619,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: L E V E L S
+  m_Text: 'L E V E L S
+
+'
 --- !u!222 &1817819818
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11218,7 +11226,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -11230,7 +11238,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: H O M E
+  m_Text: 'H O M E
+
+'
 --- !u!222 &1965684852
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11524,7 +11534,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -11536,7 +11546,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: L E V E L S
+  m_Text: 'L E V E L S
+
+'
 --- !u!222 &2009352749
 CanvasRenderer:
   m_ObjectHideFlags: 0

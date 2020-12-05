@@ -13,11 +13,11 @@ public class Scene_Manager : MonoBehaviour
     }
     public void HomeScene()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Level Selection");
     }
     public void LevelsScene()
     {
-        SceneManager.LoadScene("Levels");
+        SceneManager.LoadScene("Level Selection");
     }
     public void PauseGame()
     {

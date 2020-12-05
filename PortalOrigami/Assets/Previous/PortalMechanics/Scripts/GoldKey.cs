@@ -29,4 +29,12 @@ public class GoldKey : MonoBehaviour
         Destroy(effect, 2f);
         button.SetActive(false);
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            button.SetActive(false);
+        }
+    }
 }

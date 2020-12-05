@@ -312,7 +312,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -324,7 +324,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: R E T R Y
+  m_Text: 'R E T R Y
+
+'
 --- !u!222 &58037673
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1540,6 +1542,7 @@ Transform:
   - {fileID: 491092443}
   - {fileID: 176746357}
   - {fileID: 809150494}
+  - {fileID: 933790746}
   - {fileID: 961963470}
   - {fileID: 1186065373}
   - {fileID: 1918623550}
@@ -1550,7 +1553,6 @@ Transform:
   - {fileID: 89775301}
   - {fileID: 1799788232}
   - {fileID: 2029092325}
-  - {fileID: 933790746}
   - {fileID: 255288958}
   - {fileID: 1808869446}
   - {fileID: 1095950271}
@@ -1707,7 +1709,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 128
     m_FontStyle: 1
     m_BestFit: 0
@@ -3445,6 +3447,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 769130133}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &769130135 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
+    type: 3}
+  m_PrefabInstance: {fileID: 769130133}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &809150493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3615,7 +3623,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 128
     m_FontStyle: 1
     m_BestFit: 0
@@ -4211,7 +4219,7 @@ Transform:
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 412517784}
-  m_RootOrder: 49
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &933790747
 MeshCollider:
@@ -5359,7 +5367,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -5371,7 +5379,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: H O M E
+  m_Text: 'H O M E
+
+'
 --- !u!222 &1035110089
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6966,7 +6976,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -6978,7 +6988,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: H O M E
+  m_Text: 'H O M E
+
+'
 --- !u!222 &1312419941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8327,6 +8339,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1570174979}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1570174981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1570174979}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1572822145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8784,7 +8802,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -8796,7 +8814,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: L E V E L S
+  m_Text: 'L E V E L S
+
+'
 --- !u!222 &1639901308
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8863,7 +8883,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -8875,7 +8895,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: L E V E L S
+  m_Text: 'L E V E L S
+
+'
 --- !u!222 &1664726722
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9855,7 +9877,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 3eeb21285e4b4524b8206441be7a8854, type: 3}
     m_FontSize: 64
     m_FontStyle: 1
     m_BestFit: 0
@@ -9867,7 +9889,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: R E S U M E
+  m_Text: 'R E S U M E
+
+'
 --- !u!222 &1845922510
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10309,6 +10333,12 @@ PrefabInstance:
 --- !u!4 &1903394797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 911960169178875232, guid: 3b3be6184675be544860dc725668becb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1903394796}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1903394798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
     type: 3}
   m_PrefabInstance: {fileID: 1903394796}
   m_PrefabAsset: {fileID: 0}
@@ -10857,6 +10887,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1682365461043914550, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
+        type: 3}
+      propertyPath: confetties.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682365461043914550, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
+        type: 3}
+      propertyPath: EndCanvas
+      value: 
+      objectReference: {fileID: 2113996161}
+    - target: {fileID: 1682365461043914550, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
+        type: 3}
+      propertyPath: confetties.Array.data[0]
+      value: 
+      objectReference: {fileID: 769130135}
+    - target: {fileID: 1682365461043914550, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
+        type: 3}
+      propertyPath: confetties.Array.data[1]
+      value: 
+      objectReference: {fileID: 1570174981}
+    - target: {fileID: 1682365461043914550, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
+        type: 3}
+      propertyPath: confetties.Array.data[2]
+      value: 
+      objectReference: {fileID: 1903394798}
+    - target: {fileID: 1682365461043914550, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
+        type: 3}
+      propertyPath: confetties.Array.data[3]
+      value: 
+      objectReference: {fileID: 2073179086}
     - target: {fileID: 3956539774842227804, guid: 94b1f6413dd3c7a44b7ef8bf0acdec5d,
         type: 3}
       propertyPath: m_Name
@@ -11292,6 +11352,12 @@ PrefabInstance:
 --- !u!4 &2073179085 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 911960169178875232, guid: 3b3be6184675be544860dc725668becb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2073179084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2073179086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3093069450800968274, guid: 3b3be6184675be544860dc725668becb,
     type: 3}
   m_PrefabInstance: {fileID: 2073179084}
   m_PrefabAsset: {fileID: 0}
