@@ -21,6 +21,7 @@ public class GoldKey : MonoBehaviour
     public void KeyCollection()
     {
         Debug.Log("Key Collected");
+        Handheld.Vibrate();
         door.GetComponentInChildren<Door>().RemoveKey(this.gameObject);
         Debug.Log("Key Destroyed");
         Destroy(gameObject);
