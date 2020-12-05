@@ -1744,7 +1744,7 @@ Transform:
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 1267817798}
-  m_RootOrder: 54
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &208366416
 MeshCollider:
@@ -8040,6 +8040,7 @@ Transform:
   - {fileID: 507194309}
   - {fileID: 1030244321}
   - {fileID: 564430755}
+  - {fileID: 208366415}
   - {fileID: 38284135}
   - {fileID: 1810869538}
   - {fileID: 2070012520}
@@ -8048,7 +8049,6 @@ Transform:
   - {fileID: 1822239811}
   - {fileID: 1366663660}
   - {fileID: 166828921}
-  - {fileID: 208366415}
   - {fileID: 432995760}
   - {fileID: 504704602}
   - {fileID: 861412339}
@@ -9288,6 +9288,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 3885476894306765533, guid: 493c4319495aaa34485de7dd1ce316e5,
+        type: 3}
+      propertyPath: keys.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3885476894306765533, guid: 493c4319495aaa34485de7dd1ce316e5,
+        type: 3}
+      propertyPath: keys.Array.data[0]
+      value: 
+      objectReference: {fileID: 53903137}
+    - target: {fileID: 3885476894306765533, guid: 493c4319495aaa34485de7dd1ce316e5,
+        type: 3}
+      propertyPath: keys.Array.data[1]
+      value: 
+      objectReference: {fileID: 982144352}
+    - target: {fileID: 3885476894306765533, guid: 493c4319495aaa34485de7dd1ce316e5,
+        type: 3}
+      propertyPath: keys.Array.data[2]
+      value: 
+      objectReference: {fileID: 1937353660}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 493c4319495aaa34485de7dd1ce316e5, type: 3}
 --- !u!4 &1558453040 stripped
