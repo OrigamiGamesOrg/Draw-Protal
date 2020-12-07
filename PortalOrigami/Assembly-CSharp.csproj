@@ -55,17 +55,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\New\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\UpDownAnim.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-    <Compile Include="Assets\Previous\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\New\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\GoldKey.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\GunShoot.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\Ui_Manager.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\MouseManager.cs" />
-    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\New\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\Previous\Misc\LevelLoad.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\PathCreatorcopy.cs" />
@@ -75,12 +75,12 @@
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\GameManager.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\Player_Controller.cs" />
     <Compile Include="Assets\New\Scripts\SOUND.cs" />
-    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
-    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\New\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\New\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\New\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\New\Scripts\LevelSelect.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
-    <Compile Include="Assets\Previous\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\New\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\New\Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\TelePort.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\MoveToLevel.cs" />
@@ -88,9 +88,10 @@
     <Compile Include="Assets\Previous\Misc\PinchAndZoom.cs" />
     <Compile Include="Assets\Previous\Camera\Scripts\FieldOfViewEditor.cs" />
     <Compile Include="Assets\Previous\Camera\Scripts\LineOfSight.cs" />
-    <Compile Include="Assets\Previous\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\New\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
     <Compile Include="Assets\New\Scripts\Button.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\Door.cs" />
+    <Compile Include="Assets\New\Scripts\PlayerMove.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\New\Font\Concert_One\OFL.txt" />

@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 1206593078347581678}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.08962989, y: 3.8186998, z: -5.006}
-  m_LocalScale: {x: 0.39671, y: 0.39671, z: 0.39671}
+  m_LocalScale: {x: 0.39670998, y: 0.39670998, z: 0.39670998}
   m_Children:
   - {fileID: 2053579663340756734}
   - {fileID: 7673662291769524963}
@@ -212,7 +212,7 @@ MonoBehaviour:
     m_Bits: 8192
   obstacleMask:
     serializedVersion: 2
-    m_Bits: 2048
+    m_Bits: 34816
   visibleTargets: []
   meshResolution: 1
   edgeResolveIterations: 0
