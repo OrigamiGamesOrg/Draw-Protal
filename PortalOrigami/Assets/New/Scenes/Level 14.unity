@@ -10385,6 +10385,7 @@ MonoBehaviour:
   InGame: {fileID: 1275482461}
   Pause: {fileID: 109926182}
   GameOver: {fileID: 1359427456}
+  InfinteUI: {fileID: 0}
 --- !u!114 &1982654919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10884,6 +10885,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 3885476894306765533, guid: 493c4319495aaa34485de7dd1ce316e5,
+        type: 3}
+      propertyPath: keys.Array.data[0]
+      value: 
+      objectReference: {fileID: 1071088780}
+    - target: {fileID: 3885476894306765533, guid: 493c4319495aaa34485de7dd1ce316e5,
+        type: 3}
+      propertyPath: keys.Array.data[1]
+      value: 
+      objectReference: {fileID: 649637562}
+    - target: {fileID: 3885476894306765533, guid: 493c4319495aaa34485de7dd1ce316e5,
+        type: 3}
+      propertyPath: keys.Array.data[2]
+      value: 
+      objectReference: {fileID: 1708441566}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 493c4319495aaa34485de7dd1ce316e5, type: 3}
 --- !u!4 &2041856597 stripped

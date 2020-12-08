@@ -7,12 +7,14 @@ public class Ui_Manager : MonoBehaviour
     public GameObject InGame, Pause, GameOver;
     private Slider keybar;
     private int keypresent;
+    public GameObject InfinteUI;
 
     private void Start()
     {
         keypresent = GameObject.FindGameObjectsWithTag("Key").Length;
         keybar = FindObjectOfType<Slider>();
         keybar.maxValue = keypresent;
+        InfinteUI.SetActive(true);
     }
 
     private void Update()
@@ -20,6 +22,10 @@ public class Ui_Manager : MonoBehaviour
         int numberofkeyleft = GameObject.FindGameObjectsWithTag("Key").Length;
         int amount = keypresent - numberofkeyleft;
         keybar.value = amount;
+        if (Input.touchCount >= 1)
+        {
+            InfinteUI.SetActive(false);
+        }
     }
     public void PausePanel()
     {
