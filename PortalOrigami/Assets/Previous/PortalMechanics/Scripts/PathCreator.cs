@@ -72,7 +72,7 @@ public class PathCreator : MonoBehaviour
             {
                 if (hit.collider.CompareTag("Door"))
                 {
-                    StartCoroutine(SendPlayerToPos(hit.point));
+                    //StartCoroutine(SendPlayerToPos(hit.point));
                     lineRenderer.enabled = false;
                     return;
                 }
@@ -88,8 +88,8 @@ public class PathCreator : MonoBehaviour
             {
                 if (Physics.Raycast(ray, out hit, Mathf.Infinity, floorMask))
                 {
-                    StartCoroutine(SendPlayerToPos(hit.point));
-                    return;
+                    //StartCoroutine(SendPlayerToPos(hit.point));
+                    //return;
                 }
                 lineRenderer.enabled = false;
                 return;
@@ -170,7 +170,7 @@ public class PathCreator : MonoBehaviour
                         portal2.transform.rotation = Quaternion.LookRotation(hit.normal);
                         portal2.transform.localEulerAngles = new Vector3(0, portal2.transform.localEulerAngles.y, 0);
 
-                        Invoke("SendPlayerToPortal", 0.1f);
+                        //Invoke("SendPlayerToPortal", 0.1f);
 
 
                         /*if(Vector3.Distance(transform.position,portal2.transform.position) < 
@@ -184,10 +184,11 @@ public class PathCreator : MonoBehaviour
                         }*/
 
                         Debug.Log("Create Portal");
+                        SendPlayerToPortal();
                     }
                     else
                     {
-                        StartCoroutine(SendPlayerToPos(hit.point));
+                        //StartCoroutine(SendPlayerToPos(hit.point));
                         Debug.Log("Move");
                     }
                 }

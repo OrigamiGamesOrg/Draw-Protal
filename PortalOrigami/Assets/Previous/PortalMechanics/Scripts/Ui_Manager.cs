@@ -8,13 +8,15 @@ public class Ui_Manager : MonoBehaviour
     private Slider keybar;
     private int keypresent;
     public GameObject InfinteUI;
+    public GameObject PortalDrawInfo;
 
     private void Start()
     {
         keypresent = GameObject.FindGameObjectsWithTag("Key").Length;
         keybar = FindObjectOfType<Slider>();
         keybar.maxValue = keypresent;
-        InfinteUI.SetActive(true);
+        PortalDrawInfo.SetActive(true);
+        //InfinteUI.SetActive(true);
     }
 
     private void Update()
@@ -25,6 +27,7 @@ public class Ui_Manager : MonoBehaviour
         if (Input.touchCount >= 1)
         {
             InfinteUI.SetActive(false);
+            PortalDrawInfo.SetActive(false);
         }
     }
     public void PausePanel()

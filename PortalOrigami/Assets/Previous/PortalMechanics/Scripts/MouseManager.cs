@@ -14,7 +14,7 @@ public class MouseManager : MonoBehaviour
     private GameObject player;
 
     public bool enableThis = false;
-
+    
     private void Start() {
         player = GameObject.FindGameObjectWithTag("Player");
     }
