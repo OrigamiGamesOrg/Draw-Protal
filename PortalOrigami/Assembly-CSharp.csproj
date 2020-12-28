@@ -58,32 +58,55 @@
     <Compile Include="Assets\New\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\UpDownAnim.cs" />
     <Compile Include="Assets\New\Scripts\AutomaticMovement.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+    <Compile Include="Assets\New\FlurrySDK\Plugins\FlurrySDK\FlurryAgentIOS.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
     <Compile Include="Assets\New\Joystick Pack\Examples\JoystickSetterExample.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyeriOS.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\GoldKey.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\GunShoot.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyerEventArgs.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\Ui_Manager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\MouseManager.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
     <Compile Include="Assets\New\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\Previous\Misc\LevelLoad.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\PathCreatorcopy.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\IAppsFlyerValidateReceipt.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\IAppsFlyerUserInvite.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AFInAppEvents.cs" />
     <Compile Include="Assets\Previous\Camera\Scripts\Camera_Rotation.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\Scene_Manager.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyerAndroid.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\PathCreator.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\GameManager.cs" />
+    <Compile Include="Assets\New\Scripts\FlurryStart.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyer.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
     <Compile Include="Assets\New\Scripts\Destroyer.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\Player_Controller.cs" />
     <Compile Include="Assets\New\Scripts\SOUND.cs" />
+    <Compile Include="Assets\New\FlurrySDK\Plugins\FlurrySDK\FlurryAgentAndroid.cs" />
     <Compile Include="Assets\New\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\New\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\New\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\New\Scripts\LevelSelect.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\IAppsFlyerConversionData.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyerObjectScript.cs" />
     <Compile Include="Assets\New\Joystick Pack\Examples\JoystickPlayerExample.cs" />
     <Compile Include="Assets\New\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\New\FlurrySDK\Plugins\FlurrySDK\Flurry.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\TelePort.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\MoveToLevel.cs" />
     <Compile Include="Assets\New\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
@@ -91,35 +114,12 @@
     <Compile Include="Assets\Previous\Misc\PinchAndZoom.cs" />
     <Compile Include="Assets\Previous\Camera\Scripts\FieldOfViewEditor.cs" />
     <Compile Include="Assets\Previous\Camera\Scripts\LineOfSight.cs" />
+    <Compile Include="Assets\New\FlurrySDK\Plugins\FlurrySDK\FlurryAgent.cs" />
+    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AFMiniJSON.cs" />
     <Compile Include="Assets\New\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
     <Compile Include="Assets\New\Scripts\Button.cs" />
     <Compile Include="Assets\Previous\PortalMechanics\Scripts\Door.cs" />
-    <Compile Include="Assets\New\FlurrySDK\Plugins\FlurrySDK\FlurryAgentIOS.cs" />
-    <Compile Include="Assets\New\FlurrySDK\Plugins\FlurrySDK\FlurryAgentAndroid.cs" />
-    <Compile Include="Assets\New\FlurrySDK\Plugins\FlurrySDK\Flurry.cs" />
-    <Compile Include="Assets\New\FlurrySDK\Plugins\FlurrySDK\FlurryAgent.cs" />
-    <Compile Include="Assets\New\Scripts\FlurryStart.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyeriOS.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyerEventArgs.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\IAppsFlyerValidateReceipt.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\IAppsFlyerUserInvite.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AFInAppEvents.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyerAndroid.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyer.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\IAppsFlyerConversionData.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AppsFlyerObjectScript.cs" />
-    <Compile Include="Assets\New\AppsFlyerSDK\AppsFlyer\AFMiniJSON.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
-    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\FacebookSDK\link.xml" />
@@ -315,11 +315,11 @@
     <Reference Include="Facebook.Unity">
       <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
     </Reference>
-    <Reference Include="FacebookNamedPipeClient">
-      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\FacebookNamedPipeClient.dll</HintPath>
-    </Reference>
     <Reference Include="Facebook.Unity.Gameroom">
       <HintPath>Assets\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\FacebookNamedPipeClient.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>

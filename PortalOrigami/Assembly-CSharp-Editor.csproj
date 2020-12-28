@@ -297,11 +297,23 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Editor\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="PackageManagerAssembly">
-      <HintPath>Assets\New\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.NRefactory">
-      <HintPath>Library\PackageCache\com.unity.render-pipelines.core@8.2.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
+    <Reference Include="Facebook.Unity.Editor">
+      <HintPath>Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.144">
+      <HintPath>Assets\New\AppsFlyerSDK\ExternalDependencyManager\Editor\Google.IOSResolver_v1.2.144.dll</HintPath>
     </Reference>
     <Reference Include="Google.JarResolver_v1.2.144">
       <HintPath>Assets\New\AppsFlyerSDK\ExternalDependencyManager\Editor\Google.JarResolver_v1.2.144.dll</HintPath>
@@ -315,23 +327,11 @@
     <Reference Include="Google.VersionHandlerImpl_v1.2.144">
       <HintPath>Assets\New\AppsFlyerSDK\ExternalDependencyManager\Editor\Google.VersionHandlerImpl_v1.2.144.dll</HintPath>
     </Reference>
-    <Reference Include="Google.IOSResolver_v1.2.144">
-      <HintPath>Assets\New\AppsFlyerSDK\ExternalDependencyManager\Editor\Google.IOSResolver_v1.2.144.dll</HintPath>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>Assets\New\EffectExamples\Editor\PackageManagerAssembly\PackageManagerAssembly.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity">
-      <HintPath>Assets\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="FacebookNamedPipeClient">
-      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\FacebookNamedPipeClient.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Gameroom">
-      <HintPath>Assets\FacebookSDK\Plugins\Gameroom\Facebook.Unity.Gameroom.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Settings">
-      <HintPath>Assets\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Editor">
-      <HintPath>Assets\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
+    <Reference Include="ICSharpCode.NRefactory">
+      <HintPath>Library\PackageCache\com.unity.render-pipelines.core@8.2.0\Editor\ShaderGenerator\ICSharpCode.NRefactory.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll</HintPath>
